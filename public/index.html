@@ -1,1 +1,13 @@
-
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Tilda server test</title></head>
+<body>
+  <h1>Form test</h1>
+  <form action="/api/upload" method="POST" enctype="multipart/form-data">
+    <input type="text" name="name" placeholder="Name">
+    <input type="file" name="photo" accept="image/*">
+    <button type="submit">Send</button>
+  </form>
+  <p><a href="/api/list" target="_blank">See JSON list</a></p>
+</body>
+</html>
